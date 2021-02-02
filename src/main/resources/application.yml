@@ -1,0 +1,6 @@
+server:
+  port: 9091
+weather:
+  api:
+    url: https://api.openweathermap.org/data/2.5/forecast?zip=%s&appid=%s
+    key: 35cec9ea6fbb78a5983a4726f1a922b3
