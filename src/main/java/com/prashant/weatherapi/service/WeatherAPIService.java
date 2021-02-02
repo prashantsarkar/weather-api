@@ -1,6 +1,6 @@
 package com.prashant.weatherapi.service;
 
-import com.prashant.weatherapi.model.WeatherRoot;
+import com.prashant.weatherapi.model.response.WeatherAPIResponseWrapper;
 
 /**
  * @author Prashant Sarkar
@@ -8,5 +8,5 @@ import com.prashant.weatherapi.model.WeatherRoot;
  */
 public interface WeatherAPIService {
 
-	WeatherRoot getWeatherForecast(Long zipCode);
+	WeatherAPIResponseWrapper getWeatherForecast(Long zipCode);
 }

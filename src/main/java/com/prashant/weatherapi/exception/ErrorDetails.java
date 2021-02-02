@@ -1,9 +1,9 @@
 package com.prashant.weatherapi.exception;
 
+import java.util.Date;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-
-import java.util.Date;
 
 /**
  * @author Prashant Sarkar
